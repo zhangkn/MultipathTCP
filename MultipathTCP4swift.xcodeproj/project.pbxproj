@@ -24,6 +24,7 @@
 		049316D6254BABFE00A04863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049316D9254BABFE00A04863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		049316DB254BABFE00A04863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049316E2254BAC3900A04863 /* MultipathTCP4swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MultipathTCP4swift.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 				049316D6254BABFE00A04863 /* Assets.xcassets */,
 				049316D8254BABFE00A04863 /* LaunchScreen.storyboard */,
 				049316DB254BABFE00A04863 /* Info.plist */,
+				049316E2254BAC3900A04863 /* MultipathTCP4swift.entitlements */,
 			);
 			path = MultipathTCP4swift;
 			sourceTree = "<group>";
@@ -286,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MultipathTCP4swift/MultipathTCP4swift.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 249PMS4KB9;
 				INFOPLIST_FILE = MultipathTCP4swift/Info.plist;
@@ -305,6 +308,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MultipathTCP4swift/MultipathTCP4swift.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 249PMS4KB9;
 				INFOPLIST_FILE = MultipathTCP4swift/Info.plist;
